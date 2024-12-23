@@ -93,7 +93,7 @@ const Table = () => {
             <button
               onClick={handleNext}
               className={classes.button}
-              disabled={page == totalPages - 1}
+              disabled={page === totalPages - 1}
               style={{
                 backgroundColor:
                   page === totalPages - 1 ? "#e0e0e0" : "#1769aa",
